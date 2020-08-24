@@ -15,7 +15,9 @@ mongoose.connect(dbConfig.db, {
   console.log('Database sucessfully connected!')
 },
   error => {
+    //const collection = client.db("Dev-Test").collection("Dev-Test-Collection");
     console.log('Could not connect to database : ' + error)
+    console.log('database uri: ' + dbConfig.db)
   }
 )
 
