@@ -13,5 +13,5 @@ client.connect(err => {
 
 module.exports = {
   // db: 'mongodb://localhost:27017/reactdb'
-     db: uri
+     db: uri 
  };
